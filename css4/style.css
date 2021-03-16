@@ -11,9 +11,11 @@ body{
     border-radius: 25px;
 }
 .navbar{
-    margin-left: 0px;
+    margin-bottom: 0px;
     align-items: center;
     background-color: #011c39;
+
+
 }
 .navbar a{
     text-decoration: none;
@@ -27,15 +29,26 @@ body{
     padding-bottom: 20px;
 }
 
-.cover img{
-    width: 100%;
+.cover{
+    background-image: url("../images/r6.jpg");
+    height: 400px;
+    color: whitesmoke;
+    margin-top: 0px;
+    justify-content: stretch;
+}
+#welcome{
+    margin-top: 0;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 150px;
 }
 
 .message{
     text-align: center;
     font-size: 20px;
-    font-family: poppins;
     color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .product{
@@ -44,6 +57,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 10px;
 }
+
 .product > div{
     margin-top: 20px;
 }
@@ -51,22 +65,25 @@ body{
 button{
     cursor: pointer;
     width: 250px;
-    background-color: teal;
     border-radius: 20px;
     font-family: cursive;
-    color: whitesmoke;
+    border: 3px solid steelblue;
 }
 
 .product1{
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    border: 0.5px solid black;
     padding: 10px 10px 10px 10px;
     border-radius: 12px;
     margin-left: 5px;
     box-shadow: 5px 5px 5px black;
-    color: whitesmoke;
+    background-color: rgb(230, 213, 213);
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
 }
 
 .product2{
@@ -78,10 +95,17 @@ button{
     border-radius: 12px;
     margin-left: 5px;
     box-shadow: 5px 5px 5px black;
-    color: whitesmoke;
+    background-color: rgb(230, 213, 213);
+    /* color: whitesmoke; */
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
 }
 
 .product3{
+    margin-right: 5px;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -90,11 +114,16 @@ button{
     border-radius: 12px;
     margin-left: 5px;
     box-shadow: 5px 5px 5px black;
-    margin-right: 5px;
-    color: whitesmoke;
+    background-color: rgb(230, 213, 213);
+    /* color: whitesmoke; */
 }
 
-/* ........footer....... */
+.img3{
+    width: 50px;
+    height: 50px;
+}
+
+/* ......footer.......... */
 
 footer{
     display: -webkit-flex;
@@ -202,3 +231,6 @@ u:hover{
     }
  }
 }
+
+
+
