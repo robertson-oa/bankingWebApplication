@@ -30,6 +30,7 @@ footer{
     margin-right: 1.2em;
     margin-bottom: 2em;
 }
+
 .footer-left img{
     width: 50%;
 }
@@ -114,5 +115,5 @@ u:hover{
     main{
         font-size: 55px;
     }
+ }
 }
-
