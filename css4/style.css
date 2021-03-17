@@ -13,10 +13,14 @@ body{
 .navbar{
     margin-bottom: 0px;
     align-items: center;
-    background-color: #011c39;
-
-
+    background-color: #011c39;    
 }
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 .navbar a{
     text-decoration: none;
     color: white;

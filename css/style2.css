@@ -4,6 +4,12 @@
     height: 50px;
     border-radius: 25px;
 }
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 .navbar{
     margin-left: 0px;
     align-items: center;
