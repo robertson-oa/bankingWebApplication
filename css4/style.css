@@ -5,11 +5,19 @@ body{
     background-color: #263f5a;
 }
 
+.bnkname{
+    /* border: 1px solid #ff0000; */
+    border-right: 1px solid whitesmoke;
+    padding-right: 15px;
+}
+
 .logo img{
+    margin-left: 40px;
     width: 50px;
     height: 50px;
     border-radius: 25px;
 }
+
 .navbar{
     margin-bottom: 0px;
     align-items: center;
@@ -125,6 +133,21 @@ button{
 .img3{
     width: 50px;
     height: 50px;
+}
+
+.e-banking{
+    color: whitesmoke;
+    text-align: center;
+    background-color: #263f5a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.log{
+    color: whitesmoke;
+    background-color: #263f5a;
+    cursor: pointer;
+    width: 150px;
 }
 
 /* ......footer.......... */
