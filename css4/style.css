@@ -150,6 +150,38 @@ button{
     width: 150px;
 }
 
+.deposit-form{
+    color: whitesmoke;
+    background-color: #263f5a;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+#deposit-btn{
+    color: black;
+    background-color: whitesmoke;
+    margin-left: 10px;
+}
+
+#sign-out-btn{
+    color: black;
+    background-color: whitesmoke;
+    margin-left: 10px;
+}
+
+#text{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#transaction{
+    font-size: 50px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
 /* ......footer.......... */
 
 footer{

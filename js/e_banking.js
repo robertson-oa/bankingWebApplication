@@ -8,7 +8,7 @@ var balance = document.querySelector('#transaction');
 var depositBtn = document.querySelector("#deposit-btn");
 var signOutBtn = document.querySelector("#sign-out-btn");
 depositBtn.addEventListener('click', deposit);
-
+signOutBtn.addEventListener('click', signOut)
 // is user logged in?
 isLoggedIn();
 
